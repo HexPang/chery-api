@@ -21,7 +21,7 @@ c_api = chery_api("DEVICE_ID")
 # 登陆并获取新的TOKEN,旧TOKEN可能也需要通过抓包工具进行获取
 c_api.login("USER_NAME", "PASS_WORD", "TOKEN")
 
-# UNION_ID 可能配合抓包工具进行抓取
+# 刷新 globalId ,不然会提示已从其他地方登陆.(UNION_ID 可能配合抓包工具进行抓取)
 c_api.refresh_global_id("UNION_ID") 
 
 # 获取车辆列表
