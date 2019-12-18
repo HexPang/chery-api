@@ -3,7 +3,7 @@
 # 使用方法
 
 ```python
-from api import chery_api
+from chery import chery_api
 
 c_api = chery_api("DEVICE_ID")
 
